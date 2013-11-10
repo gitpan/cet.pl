@@ -58,20 +58,20 @@ cet - console emphasis tool
 
 =head1 VERSION
 
-Version 2.00
+Version 2.01
 
 =cut
 
-our $VERSION = '2.00';
+our $VERSION = '2.01';
+
+=head1 SYNOPSIS
+
+cet.pl REGEX1 [COLOR1] [REGEX2 [COLOR2]] ... [REGEXn [COLORn]]
 
 =head1 DESCRIPTION
 
 cet.pl is a command line tool for visually emphasizing text in log files
 etc. by colorizing the output matching regular expressions.
-
-=head1 SYNOPSIS
-
-cet.pl REGEX1 [COLOR1] [REGEX2 [COLOR2]] ... [REGEXn [COLORn]]
 
 =head1 USAGE
 
@@ -126,13 +126,17 @@ All regular expressions are matched without case sensitivity.
 
 Andreas Lund C<floyd at atc.no>
 
-=head1 MODULE MAINTAINER
+=head1 MAINTAINER
 
 C Hutchinson C<taint at cpan.org>
 
-=head1 COPYRIGHT AND LICENSE
+=head1 COPYRIGHT
 
-Copyright 2009-2013 Andreas Lund C<floyd at atc.no>. This program is free software;
-you may redistribute it and/or modify it under the same terms as Perl itself.
+Copyright 2009-2013 Andreas Lund C<floyd at atc.no>.
+
+=head1 LICENSE
+
+This program is free software. You may redistribute it and/or modify it
+under the same terms as Perl itself.
 
 =cut

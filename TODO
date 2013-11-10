@@ -2,4 +2,4 @@ cet.pl	TODO
 
 	*	create a separate cet POD file
 
-and install them it part of the build && install process. :)
+and install it as part of the build && install process. :)

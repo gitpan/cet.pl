@@ -1,12 +1,12 @@
 {
-   "abstract" : "unknown",
+   "abstract" : "console emphasis tool",
    "author" : [
-      "Andreas Lund <floyd@atc.no>"
+      "Andreas Lund <floyd@atc.no>, maintained by C Hutchinson <taint@cpan.org>"
    ],
    "dynamic_config" : 1,
    "generated_by" : "ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.131560",
    "license" : [
-      "unknown"
+      "artistic_1"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
@@ -15,8 +15,7 @@
    "name" : "cet.pl",
    "no_index" : {
       "directory" : [
-         "t",
-         "inc"
+         "t"
       ]
    },
    "prereqs" : {
@@ -32,10 +31,11 @@
       },
       "runtime" : {
          "requires" : {
-            "perl" : "5"
+            "Test::More" : "0.95",
+            "perl" : "5.008009"
          }
       }
    },
    "release_status" : "stable",
-   "version" : "2.00"
+   "version" : "2.01"
 }

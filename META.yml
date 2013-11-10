@@ -1,14 +1,14 @@
 ---
-abstract: unknown
+abstract: 'console emphasis tool'
 author:
-  - 'Andreas Lund <floyd@atc.no>'
+  - 'Andreas Lund <floyd@atc.no>, maintained by C Hutchinson <taint@cpan.org>'
 build_requires:
   ExtUtils::MakeMaker: 0
 configure_requires:
   ExtUtils::MakeMaker: 0
 dynamic_config: 1
 generated_by: 'ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.131560'
-license: unknown
+license: artistic
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
@@ -16,7 +16,7 @@ name: cet.pl
 no_index:
   directory:
     - t
-    - inc
 requires:
-  perl: 5
-version: 2.00
+  Test::More: 0.95
+  perl: 5.008009
+version: 2.01
